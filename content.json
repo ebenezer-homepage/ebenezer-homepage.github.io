@@ -14,7 +14,13 @@
     "aboutImg": ""
   },
   "beethoven": {
-    "images": ["", "", "", "", ""],
+    "images": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
     "youtubeUrl": ""
   }
 }

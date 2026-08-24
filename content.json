@@ -1,6 +1,12 @@
 {
   "portfolio": [],
-  "videos": [],
+  "videos": [
+    {
+      "id": 1787584652514,
+      "title": "43평",
+      "youtubeId": "IxRuqzOrBpM"
+    }
+  ],
   "info": {
     "phone": "1668-3603",
     "hours": "평일 09:00 - 18:00",

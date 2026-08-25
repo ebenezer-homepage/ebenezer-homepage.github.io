@@ -444,6 +444,20 @@ input, textarea, select, button { font-family: inherit; }
 .mission-text h3 { font-family: var(--serif); font-size: 20px; font-weight: 700; margin-bottom: 10px; }
 .mission-text p  { font-size: 14px; line-height: 1.8; opacity: .88; }
 
+.factory-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.factory-gallery img {
+  width: 100%; height: 220px; object-fit: cover; border-radius: var(--radius);
+  box-shadow: var(--shadow); transition: transform .25s;
+}
+.factory-gallery img:hover { transform: scale(1.03); }
+@media (max-width: 768px) {
+  .factory-gallery { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
+  .factory-gallery img { height: 160px; }
+}
+@media (max-width: 480px) {
+  .factory-gallery { grid-template-columns: 1fr; }
+}
+
 /* =============================================
    PORTFOLIO
    ============================================= */

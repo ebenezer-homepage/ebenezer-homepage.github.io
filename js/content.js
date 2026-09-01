@@ -7,7 +7,7 @@ const DEFAULTS = {
   beethoven: { images: ['','','','',''], youtubeUrl: '' },
   portfolio: [],
   videos: [],
-  info: { phone:'1668-3603', hours:'평일 09:00 - 18:00', address:'전국 어디서나 상담 가능', kakao:'#', copyright:'© 2026 에벤에셀 EBENEZER. All rights reserved.', footerHours:'평일 09:00 - 18:00' },
+  info: { phone:'1544-0481', hours:'평일 09:00 - 18:00', address:'전국 어디서나 상담 가능', kakao:'#', copyright:'© 2026 에벤에셀 EBENEZER. All rights reserved.', footerHours:'평일 09:00 - 18:00' },
   customText: {}
 };
 
